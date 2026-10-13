@@ -1,0 +1,17 @@
+RustChat selftest
+==================================================
+[PASS] protokol.frame_roundtrip - Say { scope: Room { room: "genel" }, text: "selam 🚀", action: false }
+[PASS] fallback.command - {"args":["rust","lobi"],"cmd":"join","kind":"command","rest":"rust lobi"}
+[PASS] fallback.stats - {"kind":"message","stats":{"chars":18,"emojis":0,"hashtags":[],"links":[],"mentions":["ali"],"words":3},"text":"merhaba dünya @ali"}
+[PASS] java.status - Active
+[PASS] java.process_message - {"kind":"message","stats":{"chars":15,"emojis":1,"hashtags":[],"links":[],"mentions":[],"words":3},"text":"merhaba dünya 🔥"}
+[PASS] java.process_command - {"args":["ali","naber"],"cmd":"msg","kind":"command","rest":"ali naber"}
+[PASS] java.hint - /join <oda> - odaya katıl
+[PASS] server.start - port=57920
+[PASS] client.welcome 
+[PASS] client.history 
+[PASS] e2e.echo 
+[PASS] server.events - 4 olay
+[PASS] server.stop 
+==================================================
+SONUÇ: TÜM TESTLER GEÇTİ
